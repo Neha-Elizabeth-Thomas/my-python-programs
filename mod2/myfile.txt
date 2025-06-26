@@ -1,0 +1,10 @@
+ing.py
+Traceback (most recent call last):
+  File "c:\Users\nelso\OneDrive\Desktop\Python\mod2\fileHandling.py", line 5, in <module>
+    for line in f:
+                ^
+io.UnsupportedOperation: not readable
+PS C:\Users\nelso\OneDrive\Desktop\Python> & C:/Python313/python.exe c:/Users/nelso/OneDrive/Desktop/Python/mod2/fileHandling.py
+PS C:\Users\nelso\OneDrive\Desktop\Python> cd mod2
+PS C:\Users\nelso\OneDrive\Desktop\Python\mod2> & C:/Python313/python.exe c:/Users/nelso/OneDrive/Desktop/Python/mod2/fileHandling.py
+Traceback (most recent call last):

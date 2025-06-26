@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <h2>Enter Your Name</h2>
+    <form method="POST">
+        <input type="text" name="username" placeholder="Your name">
+        <input type="submit" value="Submit">
+    </form>
+
+    {% if name %}
+        <p>Hello, <strong>{{ name }}</strong>!</p>
+    {% endif %}
+
+    <a href="/">Back to Home</a>
+</body>
+</html>
